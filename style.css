@@ -1,59 +1,47 @@
-body {
-  /* padding: 0;
-  margin: 0; */
-}
 .container {
-  padding-right: 20%;
-  padding-left: 20%;
   border: 4px double black;
-  height: 500px;
-  width: 450px;
+  width: 80%;
   margin: 0 auto;
-  background-color: white;
+  padding: 20px;
 }
-.box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 20px;
+.logo {
+  text-align: center;
 }
-.hr {
-  justify-content: center;
-  border: 1px solid black;
-  width: 133%;
-  margin-top: 20px;
+ul {
+  padding-top: 10px;
+  text-align: center;
+}
+li {
+  text-align: center;
+  display: inline-block;
+  margin: 0px 10px;
+}
+.hr1 {
+  width: 600px;
+  border-top: 3px solid black;
+}
+.hr2 {
+  width: 600px;
+  border-top: 1px solid black;
   margin-bottom: 20px;
 }
+
 a {
-  text-align: center;
-  letter-spacing: 3px;
-  color: black;
+  font-size: small;
   text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+  letter-spacing: 3.15px;
 }
 a:hover {
   color: brown;
 }
-.navBar {
-  width: 600px;
-  word-spacing: 20px;
-}
-
-.hr1 {
-  border: 1px solid black;
-  width: 133%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-.img {
-  margin: 20px 0;
-}
-.para {
-  width: 100%;
-  max-width: 400px;
-  margin: 0 auto;
-  padding: 0 20px;
-  font-family: "Courier New", Courier, monospace;
+.piano {
+  text-align: center;
 }
 p {
   width: 600px;
+  margin: 20px auto;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
 }
