@@ -1,8 +1,12 @@
+body {
+  background-color: rgb(211, 124, 211);
+}
 .container {
   border: 4px double black;
   width: 80%;
   margin: 0 auto;
   padding: 20px;
+  background-color: #fff;
 }
 .logo {
   text-align: center;
